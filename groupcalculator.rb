@@ -1,26 +1,25 @@
-def add(a, b)
-  a + b
+def add(number1, number2)
+  number1 + number2
 end
 ###########
-def sub(a, b)
-  a - b
+def sub(number1, number2)
+  number1 - number2
 end
 ###########
-def mult(a, b)
-  a * b
+def mult(number1, number2)
+  number1 * number2
 end
 ###########
-def divmod(a, b)
-  "#{a.divmod(b)[0]} #{a.divmod(b)[1]}/#{b}"
+def divmod(number1, number2)
+  "#{number1.divmod(number2)[0]} #{a.divmod(number2)[1]}/#{number2}"
 end
 ###########
-def exp(a, b)
-  a ** b
+def exp(number1, number2)
+  number1 ** number2
 end
 ###########
-def root(a, b)
-  a ** (1/b)
+def root(number1, number2)
+  number1 ** (1/number2)
 end
 ###########
-
-puts divmod(10, 3)
+puts "Welcome"
