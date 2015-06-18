@@ -1,2 +1,9 @@
 WHAT DID THEY SAY SAM
 they said that when the user inputs his/her numbers, they do it on one line. they do it by making a command that detects '/', '*', '+', etc. within the user input, then doing the respective operation.
+
+You can use the include? method:
+
+my_string = "abcdefg"
+if my_string.include? "cde"
+   puts "String includes 'cde'"
+end
